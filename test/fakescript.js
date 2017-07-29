@@ -1,1 +1,1 @@
-window.fakeScriptLoaded = true;
+window.fakeScriptLoaded = true
