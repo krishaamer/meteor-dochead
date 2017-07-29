@@ -24,11 +24,9 @@ Package.onUse(function(api) {
 })
 
 Package.onTest(function(api) {
-    api.addFiles('test/init.js', 'server')
     configure(api)
     api.use(['react', 'tinytest', 'random', 'tracker', 'underscore'])
 
     api.addAssets('test/fakescript.js', 'client')
     api.addFiles('test/client.js', 'client')
-    api.addFiles('test/server.js', 'server')
 })
